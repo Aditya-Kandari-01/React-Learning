@@ -18,4 +18,4 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## HOW TO USE THE CODE
 
-Replcae current src and public with the other src and public folder present inside the numbered folders
+Replace current src and public folders with the other src and public folder present inside the numbered folders
