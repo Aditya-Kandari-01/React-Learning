@@ -4,7 +4,9 @@
     font-family: 'helvetica neue';
 }
 html,body{
-    background-color: black;
     height:100%;
     width:100%;
+}
+#right::-webkit-scrollbar{
+    display: none;
 }
