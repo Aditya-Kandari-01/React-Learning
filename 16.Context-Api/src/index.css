@@ -1,0 +1,37 @@
+@import "tailwindcss";
+*{
+    box-sizing : border-box;
+    font-family: 'helvetica neue';
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+body.light{
+    background-color: white;
+    color: black;
+}
+body.dark{
+    background-color:black;
+    color:white;
+}
+.nav{
+    display: flex;
+    background-color: lightseagreen;
+    justify-content:space-between;
+    align-items: center;
+    font-size: larger;
+    font-weight:bolder;
+    padding:10px 20px;
+}
+.nav1{
+    display:flex;
+    gap:30px;
+}
+.btn.light{
+    background-color:cyan;
+}
+.btn.dark{
+    background-color:rgba(22, 123, 247, 0.726);
+}
